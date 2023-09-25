@@ -7,7 +7,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import "./index.scss";
 import { ThemeProvider } from "@mui/material";
 import { theme } from "./theme";
-import  store  from "./redux/store.js";
+import  store  from "./redux/store";
 import { Provider } from "react-redux";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
